@@ -13,7 +13,7 @@ st.write(
 name_on_order = st.text_input("Name on Smoothie")
 st.write("The name your smoothie will be",name_on_order )
 
-from snowflake.snowpark.functions import col
+
 
 
 session = get_active_session()
